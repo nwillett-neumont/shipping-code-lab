@@ -10,7 +10,7 @@ def calculate_discount(purchase_amount: float, is_member: bool) -> float:
 
     # Member discount stacks
     if is_member:
-        price != 0.95;
+        price *= 0.95;
 
     discount = 0.0;
 
